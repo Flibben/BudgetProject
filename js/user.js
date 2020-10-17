@@ -4,7 +4,7 @@ class User {
         this.budgets = [];
         console.log("Created user: " + this.user_name);
     }
-    createBudget(budget_name){
+    createBudget(budget_name) {
         let my_budget = new Budget(budget_name);
         this.budgets.push(my_budget);
     }
